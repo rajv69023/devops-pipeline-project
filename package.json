@@ -1,4 +1,15 @@
-"scripts": {
-  "test": "echo 'Test Passed!' && exit 0",
-  "start": "node server.js"
+{
+  "name": "devops-pipeline-project",
+  "version": "1.0.0",
+  "description": "Demo Node.js app for CI/CD pipeline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests defined\""
+  },
+  "author": "rajv69023",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
